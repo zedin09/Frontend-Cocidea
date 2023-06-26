@@ -1,0 +1,11 @@
+@import "./variables.scss";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: NunitoFuenteCustom;
+    src: url("../fonts/static/Nunito-Bold.ttf");
+}
+
+.nav-link {
+    color: white;
+}
