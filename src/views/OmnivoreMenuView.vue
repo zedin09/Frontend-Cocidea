@@ -1,12 +1,11 @@
 <template>
-    <main class="d-flex flex-column justify-content-start align-items-center min-vh-100 bg-primary py-5 text-center">
-        <h3 class="my-5">Estamos en el menu de los que comen carne</h3>
+    <div class="container-fluid d-flex flex-column justify-content-start align-items-center text-center">
         <Recipes></Recipes>
-    </main>
+    </div>
 </template>
 
 <script setup>
-import Recipes from '../components/recipes/recipes.vue';
+import Recipes from '../components/recipes/Recipes.vue'
 
 </script>
 
