@@ -2,8 +2,20 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 @font-face {
-    font-family: NunitoFuenteCustom;
-    src: url("../fonts/static/Nunito-Bold.ttf");
+    font-family: 'Pacifico', cursive;
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+.custom-button {
+    font-size: 22px;
+}
+
+.custom-button:hover {
+    background-color: #8aa38e;
+}
+
+* {
+    font-family: 'Pacifico', cursive;
 }
 
 .nav-link {
