@@ -2,21 +2,25 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 @font-face {
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
     src: url("../fonts/Pacifico-Regular.ttf");
 }
 
 * {
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
 }
 
 .nav-link {
     color: white;
 }
 
+image {
+    cursor: pointer;
+}
+
 body {
     background-color: $primary;
-    background-image: url('../images/background.jpg');
+    background-image: url("../images/background.jpg");
     /*? <by default> background-repeat: repeat; */
     /* background-repeat: no-repeat; */
     background-size: auto 100%;
