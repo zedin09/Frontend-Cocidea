@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid d-flex flex-column justify-content-start align-items-center text-center">
-        <Recipes></Recipes>
+        <Recipes type="Veggie"></Recipes>
     </div>
 </template>
 

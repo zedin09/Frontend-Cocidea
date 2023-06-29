@@ -3,7 +3,7 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-12 col-sm-10 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                 <div class="container rounded-4 border border-2 border-dark p-0">
-                    <img class="img-fluid m-0 p-0 border-bottom border-2 border-dark" src="../assets/images/carne1.jpg"
+                    <img class="img-fluid m-0 p-0 border-bottom border-2 border-dark" :src="`/recipes-images/${selectedRecipe.image}.jpg`"
                         alt="">
                     <div class="container-fluid bg-primary fw-bold m-0 py-2">
                         <!-- <h2 class="text-center my-4 fw-bold">{{ selectedRecipe.name }}</h2> -->
